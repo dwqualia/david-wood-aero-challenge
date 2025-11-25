@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      as="image"
+      href="https://placehold.co/600x400/thistle/grey?text=Item+1"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/Inter-Variable-subset.woff2"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/InstrumentSerif-Regular.ttf"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      as="font"
+      href="/fonts/InstrumentSerif-Italic.ttf"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/djw-favicon.svg" />
+    <title>david-wood-aero-challenge</title>
+  </head>
+  <body>
+    <main id="accordion-grid">
+      <img
+        id="accordion-image"
+        src="https://placehold.co/600x400/thistle/grey?text=Item+1"
+        alt="Accordion image"
+      />
+
+      <div id="accordion-content">
+        <header id="accordion-header">
+          <span id="subtitle">Loading Subtitle...</span>
+          <h1 id="headline">Loading Headline</h1>
+        </header>
+
+        <details open>
+          <summary>Loading Items...</summary>
+          <div class="accordion-item">
+            <img
+              class="accordion-item-image"
+              src="https://placehold.co/600x400/thistle/grey?text=Item+1"
+              alt="Accordion image"
+            />
+            <p>Loading Content...</p>
+          </div>
+        </details>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
